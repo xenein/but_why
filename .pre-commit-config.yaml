@@ -18,6 +18,6 @@ repos:
     hooks:
         -   id: jinja-ninja
             name: Jinja Validation
-            entry: jinja-ninja
-            language: python
+            language: system
+            entry: bash -c 'poetry shell && jinja-ninja'
             files: ^app/
