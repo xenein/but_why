@@ -136,6 +136,14 @@ MarkupSafe = ">=2.0"
 i18n = ["Babel (>=2.7)"]
 
 [[package]]
+name = "jinjaninja"
+version = "0.1.2"
+description = "Jinja template style enforcement tool"
+category = "dev"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "markupsafe"
 version = "2.1.1"
 description = "Safely add untrusted strings to HTML/XML markup."
@@ -282,7 +290,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "7bce95c141dc01872be95f64dfb9cf387a9699fb186df16510eab0f0bdb25c9c"
+content-hash = "64c6b5e270f5ae57fc7ce518b5fa3b9ba08a1ec6c585ed631ed7f24264e9cc7f"
 
 [metadata.files]
 black = [
@@ -349,6 +357,9 @@ itsdangerous = [
 jinja2 = [
     {file = "Jinja2-3.1.2-py3-none-any.whl", hash = "sha256:6088930bfe239f0e6710546ab9c19c9ef35e29792895fed6e6e31a023a182a61"},
     {file = "Jinja2-3.1.2.tar.gz", hash = "sha256:31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852"},
+]
+jinjaninja = [
+    {file = "jinjaninja-0.1.2.tar.gz", hash = "sha256:996f11530fb9aaec6b509e5a577ffa0baa6070e4af2828a94e678847042ff06d"},
 ]
 markupsafe = [
     {file = "MarkupSafe-2.1.1-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:86b1f75c4e7c2ac2ccdaec2b9022845dbb81880ca318bb7a0a01fbf7813e3812"},
