@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <title>{% block %}But Why{% endblock title %}</title>
+        {% block style %}
+            <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='water.css') }}" />
+        {% endblock style %}
+        {% block headjs %}{% endblock headjs %}
+    {% endblock head %}
+</head>
+<body>
+    <header>
+        {% block header %} {% endblock header %}
+    </header>
+    <nav>
+        {% block nav %} {% endblock nav %}
+    </nav>
+    <main>
+        {% block main %} {% endblock main %}
+    </main>
+    <footer>
+        {% block footer %} {% endblock footer %}
+    </footer>
+    {% block tail %}{% endblock tail %}
+</body>
+</html>
